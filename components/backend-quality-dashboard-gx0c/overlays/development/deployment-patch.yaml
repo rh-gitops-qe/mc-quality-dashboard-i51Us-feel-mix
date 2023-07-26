@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: backend-quality-dashboard-gx0c
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh-gitops-bot/multi-comp-e2e-anwe-tenant/mc-quality-dashboard/backend-quality-dashboard-gx0c@sha256:bb4a438ec4b2e522e922100d8d9efd85a3110f569905fa4788ddc39e3664786d
+        name: container-image
+        resources: {}
+status: {}
